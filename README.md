@@ -112,7 +112,7 @@ String textoDesencriptado = desencriptar(textoEncriptado, clave);
 Si ocurre algún error durante el proceso de encriptación o desencriptación, se lanzará una excepción.
 
 
-- ### Ventajas de usar cifrado DES:
+### Ventajas de usar cifrado DES:
 
 - **Ampliamente conocido**: El DES ha sido un algoritmo estándar durante décadas y ha sido ampliamente revisado y analizado por expertos en seguridad.
 
