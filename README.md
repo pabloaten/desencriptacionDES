@@ -85,6 +85,6 @@ Desencripta un texto encriptado utilizando el algoritmo DES.
 
 - **Criptografía débil**: Dada su vulnerabilidad a ataques modernos y su tamaño de clave corto, el DES se considera una forma de criptografía débil en la actualidad.
 
-
-
+### Funcionamiento
+![Captura](https://github.com/pabloaten/desencriptacionDES/assets/92804753/9aa92255-2130-47a4-b39e-94c3e2646894)
 
