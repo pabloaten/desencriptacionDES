@@ -85,9 +85,6 @@ Desencripta un texto encriptado utilizando el algoritmo DES.
 
 - **Criptografía débil**: Dada su vulnerabilidad a ataques modernos y su tamaño de clave corto, el DES se considera una forma de criptografía débil en la actualidad.
 
-Es importante tener en cuenta que, debido a las debilidades y al obsolescencia del algoritmo DES, se recomienda utilizar algoritmos de cifrado más modernos y seguros, como AES (Advanced Encryption Standard), para aplicaciones que requieran un alto nivel de seguridad en la actualidad.
-
-Recuerda siempre evaluar los requisitos de seguridad de tu aplicación y elegir algoritmos de cifrado adecuados en consecuencia.
 
 
 
