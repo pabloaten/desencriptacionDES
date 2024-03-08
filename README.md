@@ -30,3 +30,41 @@ public static void main(String[] args) {
         e.printStackTrace();
     }
 }
+```
+## Encriptación y Desencriptación
+
+### Encriptar texto:
+
+\```java
+String textoEncriptado = encriptar(textoClaro, clave);
+\```
+
+### Desencriptar texto:
+
+\```java
+String textoDesencriptado = desencriptar(textoEncriptado, clave);
+\```
+
+### Excepciones
+
+Si ocurre algún error durante el proceso de encriptación o desencriptación, se lanzará una excepción.
+
+### Método `encriptar(String texto, String clave)`
+
+Encripta un texto utilizando el algoritmo DES.
+
+- `texto`: El texto a encriptar.
+- `clave`: La clave utilizada para encriptar el texto.
+- Retorna: El texto encriptado en formato Base64.
+- Excepciones: Se lanza una excepción si ocurre algún error durante el proceso de encriptación.
+
+### Método `desencriptar(String textoEncriptado, String clave)`
+
+Desencripta un texto encriptado utilizando el algoritmo DES.
+
+- `textoEncriptado`: El texto encriptado en formato Base64.
+- `clave`: La clave utilizada para desencriptar el texto.
+- Retorna: El texto desencriptado.
+- Excepciones: Se lanza una excepción si ocurre algún error durante el proceso de desencriptación.
+
+
