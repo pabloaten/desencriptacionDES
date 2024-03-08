@@ -35,15 +35,15 @@ public static void main(String[] args) {
 
 ### Encriptar texto:
 
-\```java
+```java
 String textoEncriptado = encriptar(textoClaro, clave);
-\```
+```
 
 ### Desencriptar texto:
 
-\```java
+```java
 String textoDesencriptado = desencriptar(textoEncriptado, clave);
-\```
+```
 
 ### Excepciones
 
